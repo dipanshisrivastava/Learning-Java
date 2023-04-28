@@ -4,7 +4,7 @@
 // An abstract class without any abstract method
 abstract class Base {
   
-    // Demo method. This is not an abstract method.
+    // This is not an abstract method.
     void fun()
     {
         // Print message if class 1 function is called
