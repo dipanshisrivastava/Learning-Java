@@ -1,0 +1,30 @@
+Singleton Class:
+In OOPs, a java singleton class is a class that can have only one object (an instance of the class) at a time.
+After the first time, if we try to instantiate the Java Singleton classes, the new variable also points to the first instance created. 
+So whatever modifications we do to any variable inside the class through any instance, affects the variable of the single instance created and is visible if we access that variable through any variable of that class type defined.
+
+
+
+Purpose of Singleton Class:
+1. The primary purpose of a java Singleton class is to restrict the limit of the number of object creations to only one. This often ensures that there is access control to resources, for example, socket or database connection.
+
+2. Memory space wastage does not occur with the use of the singleton class because it restricts instance creation. As the object creation will take place only once instead of creating it each time a new request is made.
+
+
+
+How to Design/Create a Singleton Class in Java?
+
+To create a singleton class, we must follow the steps, given below:
+
+1. Ensure that only one instance of the class exists.
+2. Provide global access to that instance by
+	* Declaring all constructors of the class to be private.
+	* Providing a static method that returns a reference to the instance. The lazy initialization concept is used to write the static methods.
+	* The instance is stored as a private static variable.
+
+
+
+Difference between Normal Class and Singleton Class:
+
+To instantiate a normal class, we use a java constructor. On the other hand, to instantiate a singleton class, we use the getInstance() method.
+A normal class vanishes at the end of the lifecycle of the application while the singleton class does not destroy with the completion of an application.
