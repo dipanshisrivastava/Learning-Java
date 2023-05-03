@@ -1,0 +1,17 @@
+Exception is an unwanted or unexpected event, which occurs during the execution of a program, i.e. at run time, that disrupts the normal flow of the program’s instructions.
+
+Exception Handling in Java is one of the effective means to handle the runtime errors so that the regular flow of the application can be preserved.
+
+Differences between Error and Exception:
+
+Error: An Error indicates a serious problem that a reasonable application should not try to catch.
+Exception: Exception indicates conditions that a reasonable application might try to catch.
+
+Types of Exceptions:
+
+Exceptions can be categorized in two ways:
+
+1. Built-in Exceptions
+	Checked Exception
+	Unchecked Exception 
+2. User-Defined Exceptions
