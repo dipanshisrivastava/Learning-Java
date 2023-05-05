@@ -1,0 +1,6 @@
+Threads:-
+- A thread is a smallest unit to work with. (individual task)
+- They can run parallely.
+- Multiple threads can share resources.
+
+Multiple threads run at same time in a code is known as Multithreading.
